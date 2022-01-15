@@ -1,8 +1,6 @@
 package com.github.marcelomachadoxd.hrworkerms.resources;
 
 import com.github.marcelomachadoxd.hrworkerms.dto.WorkerDTO;
-import com.github.marcelomachadoxd.hrworkerms.entities.Worker;
-import com.github.marcelomachadoxd.hrworkerms.repositories.WorkerRepository;
 import com.github.marcelomachadoxd.hrworkerms.servies.WorkerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
