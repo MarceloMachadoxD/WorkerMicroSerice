@@ -1,9 +1,5 @@
 package com.github.marcelomachadoxd.hrpayrollms.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import java.io.Serializable;
 
 public class Worker implements Serializable {
