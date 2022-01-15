@@ -30,7 +30,7 @@ public class PaymentService {
                 ,Worker.class
                 ,uriVariables);
 
-        return new Payment(worker.getName(), worker.getDailyIncome(), days); //temporary mock
+        return new Payment(worker.getName(), worker.getDailyIncome(), days);
     }
 
 
