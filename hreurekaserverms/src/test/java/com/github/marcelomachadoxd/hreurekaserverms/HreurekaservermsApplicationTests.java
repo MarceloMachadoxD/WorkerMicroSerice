@@ -1,4 +1,4 @@
-package com.github.com.marcelomachadoxd.hreurekaserverms;
+package com.github.marcelomachadoxd.hreurekaserverms;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
