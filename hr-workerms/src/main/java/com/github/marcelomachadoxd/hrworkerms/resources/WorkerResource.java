@@ -3,6 +3,7 @@ package com.github.marcelomachadoxd.hrworkerms.resources;
 import com.github.marcelomachadoxd.hrworkerms.dto.WorkerDTO;
 import com.github.marcelomachadoxd.hrworkerms.servies.WorkerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,6 +19,15 @@ public class WorkerResource {
     @Autowired
     private WorkerService workerService;
 
+/*    @Value("${test.config}")
+    private String testConfigValue;
+
+    @GetMapping(value = "/configs")
+    public ResponseEntity<Void> getConfig() {
+        System.out.println(testConfigValue.toString());
+
+        return  ResponseEntity.noContent().build();
+    }*/
 
     @GetMapping
     public ResponseEntity<List<WorkerDTO>> findAll() {
